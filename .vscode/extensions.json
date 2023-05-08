@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "qiu8310.minapp-vscode",
+    "stylelint.vscode-stylelint",
+    "rome.rome",
+    "editorconfig.editorconfig",
+    "usernamehw.errorlens",
+    "eamodio.gitlens",
+    "bierner.color-info"
+  ],
+}

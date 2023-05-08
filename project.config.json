@@ -1,0 +1,39 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "miniprogramRoot": "src/",
+  "compileType": "miniprogram",
+  "projectname": "wxpackup-startkit",
+  "setting": {
+    "useCompilerPlugins": [
+      "typescript",
+      "less"
+    ],
+    "babelSetting": {
+      "ignore": [
+        "src/lib/"
+      ],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "packNpmRelationList": []
+  },
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {},
+  "srcMiniprogramRoot": "src/",
+  "libVersion": "2.31.1",
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "scripts": {
+    "beforeCompile": "npm run beforeCompile",
+    "beforePreview": "npm run beforePreview",
+    "beforeUpload": "npm run beforeUpload"
+  },
+  "appid": "wudaobbabdbd"
+}

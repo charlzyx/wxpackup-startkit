@@ -1,0 +1,35 @@
+{
+  "$schema": "./node_modules/rome/configuration_schema.json",
+  "organizeImports": {
+    "enabled": true
+  },
+  "javascript": {
+    "formatter": {
+      "quoteProperties": "asNeeded",
+      "quoteStyle": "single",
+      "semicolons": "always",
+      "trailingComma": "all"
+    }
+  },
+  "formatter": {
+    "enabled": true,
+    "formatWithErrors": false,
+    "indentSize": 2,
+    "indentStyle": "space",
+    "lineWidth": 80,
+    "ignore": [
+      "src/lib/**/*.ts", "src/lib/**/*.js", "docs/", "project.config.json",
+      "project.private.config.json"
+    ]
+  },
+  "linter": {
+    "enabled": true,
+    "ignore": ["src/lib/**/*.ts", "src/lib/**/*.js", "docs"],
+    "rules": {
+      "recommended": true,
+      "suspicious": {
+        "noExplicitAny": "warn"
+      }
+    }
+  }
+}
